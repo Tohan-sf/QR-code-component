@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Outfit";
+  font-size: 15px;
+}
+
+section {
+  background-color: hsl(212deg, 45%, 89%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .container {
+  width: min(100% - 40px, 472px);
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 20px;
+}
+section .container .img {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 27px;
+}
+section .container .img > img {
+  border-radius: 20px;
+  max-width: 86%;
+}
+section .container .description {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 37px 0;
+  align-self: center;
+  text-align: center;
+  padding: 0 26px;
+}
+section .container .description .title {
+  margin: 12px 0;
+}
+section .container .description .desc {
+  color: hsl(220deg, 15%, 55%);
+}
+
+/*# sourceMappingURL=style.css.map */
